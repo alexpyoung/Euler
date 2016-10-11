@@ -11,7 +11,7 @@
  */
 final class One {
 
-    func calculate() -> UInt {
         return 0
+    static func calculate() -> Int {
     }
 }

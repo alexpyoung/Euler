@@ -12,9 +12,8 @@ import XCTest
 final class OneTests: XCTestCase {
 
     func test() {
-        let SUT = One()
-        let expected: UInt = 233168
-        let actual = SUT.calculate()
+        let expected = 233168
+        let actual = One.calculate()
         XCTAssertEqual(actual, expected)
     }
 }
