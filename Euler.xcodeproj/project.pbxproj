@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA677EA3246C5ACC002DE965 /* 002.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA677EA2246C5ACC002DE965 /* 002.swift */; };
+		FA677EA5246C5AD3002DE965 /* 002Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA677EA4246C5AD3002DE965 /* 002Tests.swift */; };
 		FA84AB5E246C4693002BC3C9 /* Euler.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA84AB54246C4693002BC3C9 /* Euler.framework */; };
 		FA84AB65246C4693002BC3C9 /* Euler.h in Headers */ = {isa = PBXBuildFile; fileRef = FA84AB57246C4693002BC3C9 /* Euler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FA84AB6F246C46B1002BC3C9 /* 001.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA84AB6E246C46B1002BC3C9 /* 001.swift */; };
@@ -24,6 +26,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FA677EA2246C5ACC002DE965 /* 002.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 002.swift; sourceTree = "<group>"; };
+		FA677EA4246C5AD3002DE965 /* 002Tests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = 002Tests.swift; sourceTree = "<group>"; };
 		FA84AB54246C4693002BC3C9 /* Euler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Euler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA84AB57246C4693002BC3C9 /* Euler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Euler.h; sourceTree = "<group>"; };
 		FA84AB58246C4693002BC3C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,6 +80,7 @@
 				FA84AB57246C4693002BC3C9 /* Euler.h */,
 				FA84AB58246C4693002BC3C9 /* Info.plist */,
 				FA84AB6E246C46B1002BC3C9 /* 001.swift */,
+				FA677EA2246C5ACC002DE965 /* 002.swift */,
 			);
 			path = Euler;
 			sourceTree = "<group>";
@@ -85,6 +90,7 @@
 			children = (
 				FA84AB64246C4693002BC3C9 /* Info.plist */,
 				FA84AB70246C46D0002BC3C9 /* 001Tests.swift */,
+				FA677EA4246C5AD3002DE965 /* 002Tests.swift */,
 			);
 			path = EulerTests;
 			sourceTree = "<group>";
@@ -199,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA677EA3246C5ACC002DE965 /* 002.swift in Sources */,
 				FA84AB6F246C46B1002BC3C9 /* 001.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -207,6 +214,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA677EA5246C5AD3002DE965 /* 002Tests.swift in Sources */,
 				FA84AB71246C46D0002BC3C9 /* 001Tests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
