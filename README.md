@@ -1,4 +1,6 @@
-# Project Euler Experimentations
-This is a repository of my Swift learnings as I work through [Project Euler](https://projecteuler.net/)
+# Euler
+![CI](https://github.com/alexpyoung/Euler/workflows/CI/badge.svg?branch=master)
+![](https://img.shields.io/static/v1.svg?label=macOS&message=10.15&color=blueviolet)
+![](https://img.shields.io/static/v1.svg?label=Xcode&message=11.4.1&color=blue)
 
-This repository uses the Conventional Changelog format for committing. You can learn more about it [here](http://blog.thoughtram.io/announcements/tools/2014/09/18/announcing-clog-a-conventional-changelog-generator-for-the-rest-of-us.html)
+[Project Euler](https://projecteuler.net/) is a series of mathematical and computational problems incrementally increasing in difficulty
