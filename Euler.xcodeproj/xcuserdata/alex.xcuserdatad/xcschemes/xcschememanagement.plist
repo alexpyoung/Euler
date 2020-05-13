@@ -4,7 +4,7 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Euler.xcscheme</key>
+		<key>Euler.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
@@ -12,12 +12,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>FAFE63781DAC921B00632F73</key>
+		<key>FA84AB53246C4692002BC3C9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FAFE63811DAC921B00632F73</key>
+		<key>FA84AB5C246C4693002BC3C9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
