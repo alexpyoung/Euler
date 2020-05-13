@@ -1,0 +1,15 @@
+name: CI
+on: push
+jobs:
+  test:
+    runs-on: macos-latest
+    strategy:
+      matrix:
+        xcode:
+        - /Applications/Xcode_11.4.1.app/Contents/Developer
+        destination:
+        - platform=iOS Simulator,name=iPhone 11 Pro Max,OS=13.4.1
+    steps:
+    - uses: actions/checkout@v2
+    - run: sudo xcode-select --switch ${{ matrix.xcode }}
+    - run: xcodebuild test -project Euler.xcodeproj -scheme Euler -destination '${{ matrix.destination }}'
