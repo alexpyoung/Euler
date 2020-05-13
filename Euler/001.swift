@@ -1,30 +1,18 @@
-//
-//  001.swift
-//  Euler
-//
-//  Created by Alex Young on 10/10/16.
-//  Copyright © 2016 Alex Young. All rights reserved.
-//
-
 /**
  Find the sum of all the multiples of 3 or 5 below 1000.
  */
 final class One {
 
   static func calculate() -> Int {
-    return AttemptOne.calculate()
+    return Array(1..<1000)
+      .filter { $0.isValidMultiple }
+      .reduce(0, +)
   }
 }
 
-private final class AttemptOne {
+extension Int {
 
-  static func calculate() -> Int {
-    return Array(1..<1000)
-      .filter(self.isValidMultiple)
-      .reduce(0, +)
-  }
-
-  private static func isValidMultiple(value: Int) -> Bool {
-    return value % 3 == 0 || value % 5 == 0
+  fileprivate var isValidMultiple: Bool {
+    return self % 3 == 0 || self % 5 == 0
   }
 }
