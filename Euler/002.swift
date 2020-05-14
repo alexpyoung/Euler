@@ -1,7 +1,7 @@
 /**
  Find the sum of even Fibonacci sequence elements that are < 4,000,000
  */
-final class Two {
+final class Two: Problem {
 
   static func calculate() -> Int {
     var a = 1
